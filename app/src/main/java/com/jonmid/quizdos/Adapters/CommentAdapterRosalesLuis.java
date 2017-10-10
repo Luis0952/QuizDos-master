@@ -55,5 +55,10 @@ public class CommentAdapterRosalesLuis extends RecyclerView.Adapter<CommentAdapt
             super(item);
             item.setOnClickListener(this);
         }
+
+        @Override
+        public void onClick(View v) {
+
+        }
     }
 }
